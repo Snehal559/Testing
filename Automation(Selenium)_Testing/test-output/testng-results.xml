@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-21T12:05:21 IST" name="Default suite" finished-at="2024-06-21T12:05:38 IST" duration-ms="17114">
+    <groups>
+    </groups>
+    <test started-at="2024-06-21T12:05:21 IST" name="Default test" finished-at="2024-06-21T12:05:38 IST" duration-ms="17114">
+      <class name="Day18_TestNG.JetStoreDemo">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Day18_TestNG.JetStoreDemo@4d465b11]" started-at="2024-06-21T12:04:31 IST" name="openBrowser" finished-at="2024-06-21T12:05:21 IST" duration-ms="49647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="urlopen()[pri:0, instance:Day18_TestNG.JetStoreDemo@4d465b11]" started-at="2024-06-21T12:05:21 IST" name="urlopen" finished-at="2024-06-21T12:05:26 IST" duration-ms="5147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlopen -->
+        <test-method is-config="true" signature="maximizeWebpage()[pri:0, instance:Day18_TestNG.JetStoreDemo@4d465b11]" started-at="2024-06-21T12:05:26 IST" name="maximizeWebpage" finished-at="2024-06-21T12:05:26 IST" duration-ms="329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maximizeWebpage -->
+        <test-method is-config="true" signature="capturedScreenShot()[pri:0, instance:Day18_TestNG.JetStoreDemo@4d465b11]" started-at="2024-06-21T12:05:27 IST" name="capturedScreenShot" finished-at="2024-06-21T12:05:27 IST" duration-ms="538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capturedScreenShot -->
+        <test-method signature="loginCheck()[pri:0, instance:Day18_TestNG.JetStoreDemo@4d465b11]" started-at="2024-06-21T12:05:27 IST" name="loginCheck" finished-at="2024-06-21T12:05:36 IST" duration-ms="8489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginCheck -->
+        <test-method is-config="true" signature="capturScreenshot()[pri:0, instance:Day18_TestNG.JetStoreDemo@4d465b11]" started-at="2024-06-21T12:05:36 IST" name="capturScreenshot" finished-at="2024-06-21T12:05:38 IST" duration-ms="2346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capturScreenshot -->
+        <test-method is-config="true" signature="deleteCookie()[pri:0, instance:Day18_TestNG.JetStoreDemo@4d465b11]" started-at="2024-06-21T12:05:38 IST" name="deleteCookie" finished-at="2024-06-21T12:05:38 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCookie -->
+        <test-method is-config="true" signature="closeDB()[pri:0, instance:Day18_TestNG.JetStoreDemo@4d465b11]" started-at="2024-06-21T12:05:38 IST" name="closeDB" finished-at="2024-06-21T12:05:38 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDB -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Day18_TestNG.JetStoreDemo@4d465b11]" started-at="2024-06-21T12:05:40 IST" name="closeBrowser" finished-at="2024-06-21T12:05:40 IST" duration-ms="477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Day18_TestNG.JetStoreDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
