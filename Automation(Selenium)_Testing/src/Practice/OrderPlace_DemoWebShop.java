@@ -20,7 +20,7 @@ public class OrderPlace_DemoWebShop {
 		driver.findElement(By.cssSelector("input[id='Password']")).sendKeys("Ingole123");
 		driver.findElement(By.cssSelector("input[id='ConfirmPassword']")).sendKeys("Ingole123");
 		driver.findElement(By.id("register-button")).click();
-		driver.findElement(By.cssSelector("input[class='button-1 register-continue-button']")).click();
+		//driver.findElement(By.cssSelector("input[class='button-1 register-continue-button']")).click();
 		//.......................................................................................................................
 		driver.findElement(By.className("ico-logout")).click();
 		//.......................................................................................................................
@@ -28,11 +28,11 @@ public class OrderPlace_DemoWebShop {
 		driver.findElement(By.cssSelector("input[autofocus='autofocus']")).sendKeys("snehalvi12345@gmail.com");
 		driver.findElement(By.cssSelector("input[name='Password']")).sendKeys("Ingole123");
 		driver.findElement(By.cssSelector("input[class='button-1 login-button']")).click();;
-		//.......................................................................................................................
+		//Search product.......................................................................................................................
 		driver.findElement(By.xpath("/html/body/div[4]/div[1]/div[4]/div[1]/div[1]/div[2]/ul/li/a[@href='/books']")).click();
 		driver.findElement(By.xpath("/html/body/div[4]/div[1]/div[4]/div[2]/div[2]/div[2]/div[3]/div[1]/div[1]/div[2]/div[3]/div[2]/input")).click();
 		driver.findElement(By.xpath("/html/body/div[4]/div[1]/div[1]/div[2]/div[1]/ul/li[3]/a")).click();//shopping cart
-		//.......................................................................................................................
+		//Select product.......................................................................................................................
 		driver.findElement(By.cssSelector("input[name='removefromcart']")).click();
 		WebElement con= driver.findElement(By.xpath("//select[@id='CountryId']"));
 		Select scon=new Select(con);
