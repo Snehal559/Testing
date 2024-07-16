@@ -101,6 +101,7 @@ public class DemoWebShopTest {
 		 public void CloseBrowser() {
 			 log.info("***Close-Browser***");
 			 driver.close();
+			 System.out.println("hello");
 		 }
 	  
 }
